@@ -29,7 +29,7 @@ export const search = async (req, res) => {
             }
         }
 
-        console.log(toReturn[0])
+        // console.log(toReturn[0])
 
         res.json(
             toReturn
